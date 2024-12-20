@@ -1,0 +1,91 @@
+
+body{
+    background-color: #1e202b;
+}
+ .nav-item a{
+    color: white;
+}
+
+.header{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.find-location{
+    height: 50vh;
+}
+.find-location input[type="text"] {
+    background-color: #1e202b;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    
+}
+#searchinput::placeholder{
+    color: rgba(255, 255, 255, 0.532);
+}
+.card{
+    background-color:#323544;
+    color: white;
+}
+.card{
+    object-fit: contain;
+    height: 40vh;
+}
+
+.cards{
+    transform: translateY(-100px);
+}
+
+
+.card2-color{
+    background-color: #262936;
+}
+.footer-color{
+    background-color: #323544;
+   
+}
+.subcribe input[type="email"]{
+    background-color: #1e202b;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+}
+#emaailinput::placeholder{
+    color: rgba(255, 255, 255, 0.532);
+}
+.but{
+    right: 0;
+ 
+}
+.but button{
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #009ad8;
+    color: white;
+}
+.social-links i{
+    color: #009ad8;
+    background-color:#262936;
+   padding: 8px 10px;
+    border-radius: 50px;
+}
+
+.social-links i:hover{
+    color: white;
+    background-color: #009ad8;
+}
+.navbar-toggler {
+    line-height: 0.4;
+}
+
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0; 
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgba(0, 0, 255, 0.479);
+}
